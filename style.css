@@ -1,0 +1,68 @@
+
+/* This is an element tag selector */
+h1 {
+    color: purple;
+}
+
+/* 
+    This is an ID selector
+    Sam rarely uses IDs as selectors; more frequently for 'jump-to' anchors in HTML
+*/
+#contactForm {
+    background-color: green;
+}
+
+/* This is a class selector */
+.my-special-paragraph {
+    background-color: yellow;
+}
+
+/* This is a list of element tag selectors */
+h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+/* This is an attribute selector */
+[name] {
+    border: 5px solid blue;
+}
+
+/* This is an attribute selector with the value "date" */
+[name="date"]{
+    border: 5px dashed pink
+}
+
+/* 
+    This is an attribute selector where the value ends with "Number" 
+    There is also an attribute selector that targ
+    elements wehere the attribute value begins with a value.
+    Instead of $ use a ^.    
+*/
+    [name$="Number"]{
+    border: 5px dotted orange
+}
+
+/* This targets every single element */
+* {
+    margin: 10px;
+}
+
+/* This targets every p elements that is preceded by another p element. */
+p + p {
+    font-size: 24px;
+}
+
+/* 
+This is a descendant selector 
+(the important part is the space between the ancestor and the descendant)
+*/
+.div-root-container span {
+    color: darkorange;
+}
+
+/* 
+This is an "immediate child" selector
+ */
+.div-root-container > span {
+    color: darkorchid;
+}
