@@ -76,6 +76,15 @@ This is an "immediate child" selector
     box-sizing: border-box;
 }
 
+label{
+    display: block 
+    /* 
+    this allows the element to display across the entire width 
+    of the page like a div (as opposed to a span which displays one
+    after the other
+     */
+}
+
 a{
     padding: 10px;
     text-decoration: none;
