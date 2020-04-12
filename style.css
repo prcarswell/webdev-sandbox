@@ -44,7 +44,7 @@ h2, h3, h4, h5, h6 {
 
 /* This targets every single element */
 * {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 /* This targets every p elements that is preceded by another p element. */
@@ -65,4 +65,13 @@ This is an "immediate child" selector
  */
 .div-root-container > span {
     color: darkorchid;
+}
+
+.border-box{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid black;
+    height: 50px;
+    box-sizing: border-box;
 }
