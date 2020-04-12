@@ -75,3 +75,20 @@ This is an "immediate child" selector
     height: 50px;
     box-sizing: border-box;
 }
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: darkcyan;
+    color: white;
+}
+
+input:hover,
+input:focus {
+    border-color: red;
+}
